@@ -1,0 +1,33 @@
+html_code = """<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein Casino-Tipp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; color: #333; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #009688; }
+        img { max-width: 100%; border-radius: 5px; margin: 20px 0; }
+        a.button { display: block; text-align: center; background: #ff5722; color: white; padding: 15px; border-radius: 8px; text-decoration: none; font-size: 18px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wie ich mit 20 € über 1000 € gewonnen habe</h1>
+        <p>Ich habe durch Zufall ein neues Casino ausprobiert, einen Willkommensbonus aktiviert und direkt beim ersten Spin über 1000 € gewonnen.</p>
+        <img src="https://i.ibb.co/PMqgzn7/slot-win-example.jpg" alt="Gewinn Screenshot">
+        <p>Kein Haken, keine Tricks. Ich spiele jetzt regelmäßig und teste neue Strategien.</p>
+        <a class="button" href="https://neospinlink.com/h30ac168c" target="_blank">Jetzt Bonus sichern und spielen</a>
+    </div>
+</body>
+</html>
+"""
+
+# Сохраняем в файл
+file_path = "/mnt/data/index.html"
+with open(file_path, "w") as f:
+    f.write(html_code)
+
+file_path
+neo.playlink.me
